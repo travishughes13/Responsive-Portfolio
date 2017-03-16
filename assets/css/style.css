@@ -333,6 +333,7 @@ side of the main body */
 
 	.content {
 		width: 55%;
+		height: 120%;
 		margin-left: 10px;
 		height: 700px;
 	}
@@ -454,7 +455,7 @@ side of the main body */
 		border-color: #dddddd;
 		border-style: solid;
 		background-color: white;
-		height: 600px;
+		height: 120%;
 	}
 
 	.picture {
@@ -482,17 +483,14 @@ side of the main body */
 		float: left;
 		padding-left: 15px;
 		padding-right: 15px;
-		height: 205px;
+		width: 305px;
+		height: 305px;
+		margin-bottom: 25px;
 	}
 
-	.text-links {
-		background-color: #4aaaa5;
-		text-align: center;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		z-index: 1;
-		position: relative;
-		top: -50px;
+	.image-size {
+		width: 305px;
+		height: 300px;
 	}
 
 /* This section controls the content for the Contact page */
@@ -619,7 +617,23 @@ side of the main body */
 		line-height: 25px;
 		width: 90%
 		color: #777777;
-}
+	}
+
+/* This section controls the content for the Portfolio page */
+
+	.portfolio-links {
+		float: left;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 455px;
+		height: 455px;
+		margin-bottom: 25px;
+	}
+
+	.image-size {
+		width: 455px;
+		height: 450px;
+	}
 
 /* This section controls the content for the Contact page */
 
