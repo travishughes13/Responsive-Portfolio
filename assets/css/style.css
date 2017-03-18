@@ -73,12 +73,14 @@ h2 {
 h3 {
 	top: 100px;
 	right: 130px;
-	margin-right: 7%;
+	margin-right: 3%;
+	margin-left: 3%;
 	padding-left: 20%;
 	padding-right: 25%;
 	padding-bottom: 17px;
 	padding-top: 5px;
 	margin-top: 15px;
+	text-align: center;
 	font-size: 18px;
 	border-bottom-style: solid;
 	border-bottom-color: #dddddd;
@@ -113,7 +115,7 @@ header section */
 	width: 100px;
 	height: 20px;
 	text-align: center;
-	right: 35px;
+	margin-right: 10px;
 	border-left-color: #777777;
 	border-left-width: 1px;
 	border-left-style: solid;
@@ -233,9 +235,10 @@ content section of the Portfolio page */
 
 .aside {
 	float: right;
-	width: 32%;
+	min-width: 290px;
+	max-width: 330px;
 	height: 200px;
-	margin-right: 5%;
+	margin-right: 3%;
 	margin-top: 15px;
 	margin-left: 5px;
 	border-color: #dddddd;
@@ -255,8 +258,8 @@ side of the main body */
 	float: right;
 	padding-top: 5px;
 	margin-top: 20px;
-	margin-right: 20%;
-	margin-left: 10%;
+	margin-right: 15%;
+	margin-left: 15%;
 }
 
 /*These footer tags keep the copyright at the bottom of the page */
@@ -331,6 +334,10 @@ side of the main body */
 
 /* These control the text of the Main content*/
 
+	h2 {
+		margin-bottom: 15px;
+	}
+
 	.content {
 		width: 55%;
 		height: 120%;
@@ -377,12 +384,16 @@ side of the main body */
 	.aside {
 		float: right;
 		width: 30%;
-		margin-left: 5px;
+		margin-left: 0px;
+		min-width: none;
+		max-width: none;
 	}
 
 	h3 {
 		text-align: center;
+		margin-top: 15px;
 		margin-left: 5px;
+		margin-bottom: 10px;
 		margin-right: 5px;
 		padding-left: 60px;
 		padding-right: 60px;
@@ -390,9 +401,9 @@ side of the main body */
 
 	.link-box {
 		width: 95%;
-		float: left;
+		float: none;
 		margin-top: 5px;
-		margin-left: 25px;
+		margin-left: 35px;
 		padding-top: 1px;
 	}
 
@@ -444,11 +455,16 @@ side of the main body */
 
 /* These control the text of the Main content*/
 
+	h2 {
+		margin-bottom: 15px;
+	}
+
 	.content {
 		width: 96%;
 		float: left;
 		margin-top: 15px;
 		margin-left: 15px;
+		margin-right: 15px;
 		padding-left: 5px;
 		padding-right: 0px;
 		border-width: 2px;
@@ -481,6 +497,7 @@ side of the main body */
 
 	.portfolio-links {
 		float: left;
+		margin-left: 10px;
 		padding-left: 15px;
 		padding-right: 15px;
 		width: 305px;
@@ -513,16 +530,20 @@ side of the main body */
 	.aside {
 		float: left;
 		width: 96.5%;
+		min-width: none;
+		max-width: none;
 		margin-left: 15px;
 		margin-top: 15px;
+		margin-right: 15px;
 	}
 
 	h3 {
 		float: left;
+		max-width: 750px;
 		margin-left: 5px;
-		margin-right: -25px;
+		margin-right: 5px;
 		padding-left: 5px;
-		padding-right: 70%;
+		padding-right: 72%;
 	}
 
 	.link-box {
@@ -573,7 +594,7 @@ side of the main body */
 		margin-top: 20px;
 		background-color: white;
 		margin-right: 15%;
-		margin-left: 12%;
+		margin-left: 10%;
 	}
 
 	.links2 {
@@ -587,7 +608,7 @@ side of the main body */
 		margin-top: 20px;
 		background-color: white;
 		margin-right: 5%;
-		margin-left: 25px;
+		margin-left: 4%;
 	}
 
 /* These control the content and aside sections of the About Me page*/
@@ -627,7 +648,7 @@ side of the main body */
 
 	.portfolio-links {
 		float: left;
-		padding-left: 15px;
+		padding-left: 55px;
 		padding-right: 15px;
 		width: 455px;
 		height: 455px;
@@ -663,14 +684,17 @@ side of the main body */
 	.aside {
 		float: left;
 		width: 95%;
+		min-width: none;
+		max-width: none;
 		padding-right: 5px;
 		margin-left: 10px;
 	}
 
 	h3 {
 		float: left;
+		max-width: 640px;
 		margin-left: 5px;
-		margin-right: -25px;
+		margin-right: 5px;
 		padding-left: 5px;
 		padding-right: 70%;
 	}
