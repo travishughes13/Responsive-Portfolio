@@ -635,6 +635,10 @@ side of the main body */
 		height: 450px;
 	}
 
+	.box-length {
+		height: 2500px;
+	}
+
 /* This section controls the content for the Contact page */
 
 	.contact-name {
