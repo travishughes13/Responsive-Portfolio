@@ -594,6 +594,10 @@ side of the main body */
 
 /* These control the text of the Main content*/
 
+	h2 {
+		margin-bottom: 15px;
+	}
+
 	.content {
 		width: 93%;
 		margin-left: 10px;
